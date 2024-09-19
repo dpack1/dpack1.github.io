@@ -4,7 +4,7 @@
       <div class="text-lg font-bold border border-black px-3 py-3 rounded">DP</div>
   
       <!-- Navigation Links -->
-      <nav class='lg:flex lg:ml-14 lg:gap-x-20 max-lg:space-y-3 max-lg:fixed max-lg:bg-white max-lg:w-1/2 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:p-6 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50'>
+    <nav :class="{'block': isMenuOpen, 'hidden': !isMenuOpen, 'lg:flex': true, 'lg:ml-14': true, 'lg:gap-x-20': true, 'lg:space-y-0': true, 'lg:space-x-8': true, 'max-lg:fixed': true, 'max-lg:bg-white': true, 'max-lg:w-full': true, 'max-lg:min-w-[300px]': true, 'max-lg:top-0': true, 'max-lg:left-0': true, 'max-lg:p-6': true, 'max-lg:h-full': true, 'max-lg:shadow-md': true, 'max-lg:overflow-auto': true, 'z-50': true}" class="flex flex-col lg:flex-row lg:space-x-8">
         <a href="#" class="hover:underline text-2xl font-semibold">Projects</a>
         <a href="#" class="hover:underline text-2xl font-semibold">Extras</a>
         <a href="#" class="hover:underline text-2xl font-semibold">Media</a>
