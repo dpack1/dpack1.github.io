@@ -41,7 +41,7 @@ export default {
         <!-- Introduction -->
         <p class="mt-4 text-[#10172A] text-2xl md:text-4xl font-semibold tracking-tighter">
           Hi, I'm
-          <span class="underline leading-8 underline-offset-8 decoration-6 decoration-[#8B5CF6]">Dylan Packham.</span>
+          <span class="underline leading-8 underline-offset-8 decoration-6 decoration-highlight">Dylan Packham.</span>
           Here you can check out what I'm working on.
         </p>
 
@@ -63,7 +63,7 @@ export default {
       <div class="text-center">
 
         <div class="mt-4">
-          <h2 class="text-white text-2xl md:text-6xl font-bold">Featured Work</h2>
+          <h2 class="text-white text-2xl md:text-6xl font-bold">My Work</h2>
         </div>
 
         <!-- Projects -->
@@ -79,7 +79,7 @@ export default {
     <div class="pt-5 px-4 mx-auto lg:px-16 md:px-12 max-w-screen-lg">
       <div class="text-center">
 
-      
+
       </div>
     </div>
   </section>

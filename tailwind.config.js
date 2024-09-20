@@ -11,6 +11,7 @@ export default {
         primary: 'var(--primary-color)',
         secondary: 'var(--secondary-color)',
         accent: 'var(--accent-color)',
+        highlight: 'var(--highlight-color)',
       }
     }
   },
