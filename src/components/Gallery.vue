@@ -32,7 +32,7 @@
     <div
       class="group relative transform scale-90 hover:scale-100 hover:-translate-y-2 transition-transform duration-300">
       <a href="https://github.com/dpack1/Pomodoro_Alexa_Skill" target="_blank">
-        <img src="../assets/virtual-assistant.png" alt="Alexa Skill"
+        <img src="../assets/Alexa.png" alt="Alexa Skill"
           class="w-40 md:w-56 lg:w-64 object-cover rounded-full shadow-lg transition duration-300" />
         <!-- Frosted Glass overlay -->
         <div
