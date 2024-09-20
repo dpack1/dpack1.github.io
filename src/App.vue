@@ -12,8 +12,13 @@ export default {
     scrollToSection(sectionId) {
       const element = document.getElementById(sectionId);
       if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
-      }
+      const topPosition = element.getBoundingClientRect().top + window.pageYOffset; // Get vertical position of the element
+      window.scrollTo({
+        top: topPosition,
+        left: 0, // Ensure no horizontal scrolling happens
+        behavior: 'smooth' // Smooth scrolling
+      });
+    }
     }
   }
 }
@@ -42,7 +47,7 @@ export default {
 
 
   <section id="section1.5"
-    class="pb-10 bg-secondaryBlue shadow-2xl relative transform translate-x-4 lg:-translate-x-20 transition-all duration-500 rounded-[30px]">
+    class="pb-10 bg-secondaryBlue shadow-2xl relative z-0 transform translate-x-4 lg:-translate-x-20 transition-all duration-500 rounded-[30px]">
 
     <div class="pt-10 pb-24 px-4 mx-auto lg:px-16 md:px-12 max-w-screen text-center ">
 
@@ -64,7 +69,7 @@ export default {
 
 
   <section id="section2"
-    class="pb-10 bg-primaryBlue shadow-2xl relative transform translate-x-4 lg:translate-x-32 lg:-translate-y-16 transition-all duration-500 rounded-[30px]">
+    class="pb-10 bg-primaryBlue shadow-2xl relative transform z-24  max-w-screen translate-x-4 lg:translate-x-32 lg:-translate-y-16 transition-all  duration-500 rounded-[30px]">
     <div class="pt-10 pb-24 px-4 mx-auto lg:px-16 md:px-12 max-w-screen text-center ">
       <div class=" px-10 mt-4 text-left">
           <h2 class="text-white text-5xl md:text-7xl font-bold">My Projects</h2>
