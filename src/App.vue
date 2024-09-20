@@ -21,41 +21,41 @@ export default {
 </script>
 
 <template>
-  <section id="section1" class="pb-8 bg-white">
-    <div class="pt-5 px-4 mx-auto lg:px-16 md:px-12 max-w-screen-lg">
+  <section id="section1" class="pb-8 bg-white" >
+    <div class="pt-10 px-4 mx-auto lg:px-16 md:px-12 max-w-screen-lg">
+      <div class="text-center content-center">
       <Header @scrollTo="scrollToSection" />
-      <div class="text-center">
         <!-- Profile Image -->
-        <div class="flex flex-col items-center justify-center gap-4 mx-auto lg:flex-row">
-          <img class="w-32 h-32 lg:w-64 lg:h-64 rounded-full" src="./assets/Profile.jpg" />
+        <div class="pt-8 flex flex-col items-center justify-center gap-4 mx-auto lg:flex-row">
+          <img class="h-96 rounded-full" src="./assets/Profile.jpg" />
         </div>
 
         <!-- Name and Instagram Link -->
-        <div class="mt-4">
-          <h2 class="text-textBlue text-2xl md:text-3xl font-bold">Dylan Packham</h2>
-          <a class="text-textBlue mt-2 hover:text-primaryBlue" href="https://www.instagram.com/dylanpackham98/"
+        <div class="mt-6">
+          <h2 class="pb-2 text-textBlue text-3xl md:text-5xl font-bold">Dylan Packham</h2>
+          <a class="text-textBlue mt-4 hover:text-primaryBlue text-3xl" href="https://www.instagram.com/dylanpackham98/"
             target="_blank">@dylanpackham98</a>
         </div>
       </div>
     </div>
   </section>
 
-  <section
-  class="pb-8 bg-secondaryBlue shadow-2xl relative transform translate-x-4 lg:-translate-x-10 transition-all duration-500 rounded-[30px]">
 
-    <div class="pt-5 px-4 mx-auto lg:px-16 md:px-12 max-w-screen-lg text-center">
+  <section id="section1.5"
+    class="pb-10 bg-secondaryBlue shadow-2xl relative transform translate-x-4 lg:-translate-x-20 transition-all duration-500 rounded-[30px]">
+
+    <div class="pt-10 pb-24 px-4 mx-auto lg:px-16 md:px-12 max-w-screen text-center ">
 
       <!-- Introduction -->
-      <p class="mt-4 text-textWhite text-2xl md:text-4xl  tracking-tighter">
-        Hi, I'm
-        <span class="underline leading-8 underline-offset-8 decoration-6 decoration-textWhite">Dylan Packham.</span>
+      <p class="pl-10 mt-4 text-textWhite text-3xl md:text-6xl font-semibold ">
+        Hi, I'm Dylan Packham.
         <br>Here you can check out what I'm working on.
       </p>
 
       <!-- About Section -->
-      <p class="pb-10 mt-4 text-textWhite text-base md:text-lg lg:text-xl sm:px-6 md:px-12 lg:px-24 leading-relaxed">
+      <p class="pl-10 pt-5 mt-4 text-textWhite text-4xl sm:px-6 md:px-12 lg:px-24 tracking-wide ">
         I'm a <span class="font-semibold">fullstack developer</span>, community builder, and <span
-          class="font-semibold">explorer</span>. I love to build <span class="font-semibold">apps</span> that solve
+          class="font-semibold">explorer</span>. I love to <br> build <span class="font-semibold">apps</span> that solve
         real life problems.
       </p>
     </div>
@@ -64,15 +64,12 @@ export default {
 
 
   <section id="section2"
-    class="pb-10 bg-primaryBlue shadow-2xl relative transform translate-x-4 lg:translate-x-10 lg:-translate-y-10 transition-all duration-500 rounded-[30px]">
-    <div class="pt-5 px-4 mx-auto lg:px-16 md:px-12 max-w-screen-lg">
-      <div class="mt-4 text-left">
-          <h2 class="text-white text-2xl md:text-6xl font-bold">My Projects</h2>
+    class="pb-10 bg-primaryBlue shadow-2xl relative transform translate-x-4 lg:translate-x-32 lg:-translate-y-16 transition-all duration-500 rounded-[30px]">
+    <div class="pt-10 pb-24 px-4 mx-auto lg:px-16 md:px-12 max-w-screen text-center ">
+      <div class=" px-10 mt-4 text-left">
+          <h2 class="text-white text-5xl md:text-7xl font-bold">My Projects</h2>
       </div>
       <div class="text-center">
-
-
-
         <!-- Projects -->
         <div>
           <Gallery />
