@@ -95,9 +95,9 @@ export default {
   <section id="section3">
     <div class="pt-5 px-4 mx-auto lg:px-16 md:px-12 max-w-screen-lg">
       <div class="text-center">
-
-
+        <img src="/src/assets/Letter.jpg" alt="SipLog" style="opacity: 0;" />
       </div>
     </div>
   </section>
+
 </template>
