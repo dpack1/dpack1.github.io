@@ -1,4 +1,5 @@
-# Dylan Packham's Developer Portfolio Page ![Logo](./Logo.png)
+# Dylan Packham's Developer Portfolio Page <img src="./Logo.png" alt="Logo" width="50"/>
+
 
 Welcome to my portfolio website! This site showcases my journey as a fullstack developer, community builder, and explorer. Here, you'll find projects I've worked on, things I care about, and a few of my personal adventures. The site is built with Vue.js and Tailwind CSS to deliver a sleek, responsive, and visually engaging experience.
 
