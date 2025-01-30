@@ -1,4 +1,4 @@
-### [City of Neverwinter](!https://www.aidedd.org/atlas/index.php?map=N&l=1) – [Map](NeverWinter.jpg)
+# [City of Neverwinter](!https://www.aidedd.org/atlas/index.php?map=N&l=1) – [Map](NeverWinter.jpg)
 “Jewel of the North” - Prosperous northern coastal city of trade and craft. Regarded by some as the most cosmopolitan and civilized city in all of Faerun. Some attribute the name to Neverwinter’s gardens growing even through winter. Neverwinter river, that flows through the city, is perpetually warm.
 
 ### [City of Waterdeep](https://www.aidedd.org/atlas/index.php?map=W&l=1) -  [Map](WaterDeep.png)
@@ -6,7 +6,7 @@
 “City of Splendors” “Crown of the North” - trade hub between the mineral-rich north and the merchant kingdoms of Amn and Calimshan to the south (east and west as well). Named for its deep water harbor.
 
 
-### Phandalin – [Map](https://static.wikia.nocookie.net/forgottenrealms/images/c/c8/Phandalin-Background/revision/latest?cb=20220416050438)
+## Phandalin – [Map](https://static.wikia.nocookie.net/forgottenrealms/images/c/c8/Phandalin-Background/revision/latest?cb=20220416050438)
 **Summary** - Mainly human village near the Triboar trail. Used to be a farming community that, years ago, was raided by orcs and left abandoned in ruins. The past several years have seen a resurgence in activity as people flock to rebuild and repopulate. The town’s still small, but many see opportunity in it.
 
 **History** - Human village. Abandoned in 951 DR after an orcs raid, settlers from Neverwinter and Waterdeep had resettled Phandalin. It became a frontier settlement of farmers and prospectors looking for wealth in the Sword Mountains.
