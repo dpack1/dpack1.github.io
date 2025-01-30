@@ -1,0 +1,32 @@
+/* src/assets/styles/theme.css */
+.pathfinder, .pathfinder-remaster {
+    --font: "Taroca";
+    --header-weight: 100;
+    --h1-font: "Taroca";
+    --h2-font: var(--h1-font);
+    --h3-font: "Norwester";
+    --h4-font: var(--h3-font);
+    --h5-font: var(--h3-font);
+    --h6-font: var(--h3-font);
+    /* other variables remain the same */
+  
+    /* Colors and accents for dark theme */
+    --accent: #863737;
+    --lite-accent: #c94d4d;
+    --dark-accent: #652121;
+    --headers: #ddaf78;
+    /* other theme styles */
+  }
+  
+  /* Light theme styles */
+  .theme-light .pathfinder {
+    --outer-bar: #e2ded8;
+    --dark-sidebar: #e2ded8;
+    --side-bar: #ECE9E4;
+    --note: #ECE9E4;
+    --note-rgb: 236, 233, 228;
+    --accent-color: 94, 0, 0;
+    --accent: #800008;
+    /* other light theme styles */
+  }
+  
