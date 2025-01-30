@@ -17,6 +17,7 @@ export default {
         secondaryBlue:'var(--secondary-blue)',
         accentGray: 'var(--accent-gray)',
         textWhite: 'var(--text-white)',
+        adventureRed: 'var(--adventure-red)',
       }
     }
   },

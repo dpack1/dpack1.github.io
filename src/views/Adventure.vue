@@ -7,12 +7,12 @@
       </p>
 
       <!-- Campaign Cards -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 relative">
+      <div class="flex flex-wrap justify-center gap-8">
         <router-link
           v-for="campaign in campaigns"
           :key="campaign.id"
           :to="`/adventure/${campaign.slug}`"
-          class="campaign-card bg-red bg-opacity-10 backdrop-blur-md rounded-lg p-6 hover:bg-opacity-20 transition-all duration-300"
+          class="campaign-card bg-red bg-opacity-10 backdrop-blur-md rounded-lg p-6 hover:bg-opacity-20 transition-all duration-300 hover:text-adventureRed"
           :class="{ 'selected': selectedCampaign === campaign.id, 'faded': selectedCampaign && selectedCampaign !== campaign.id }"
           @click="selectCampaign(campaign.id)"
         >
@@ -44,12 +44,6 @@ export default {
           slug: "shadows-abyss",
           description: "A dark journey into the depths of the unknown.",
         },
-        {
-          id: 3,
-          name: "Campaign 3: The Eternal Flame",
-          slug: "eternal-flame",
-          description: "A fiery quest to save the world from destruction.",
-        },
       ],
       selectedCampaign: null, // Track the selected campaign
     };
@@ -63,10 +57,10 @@ export default {
 </script>
 
 <style scoped>
-
-
 .campaign-card {
   transition: transform 0.3s ease, opacity 0.3s ease;
+  flex: 1 1 300px; /* Flex-grow, flex-shrink, and flex-basis */
+  max-width: 400px; /* Optional: Set a max-width for the cards */
 }
 
 .campaign-card.selected {
@@ -77,5 +71,52 @@ export default {
 .campaign-card.faded {
   opacity: 0.3; /* Fade out the non-selected cards */
   transform: scale(0.9); /* Slightly scale down the non-selected cards */
+}
+
+/* Tab Styles with Increased Specificity */
+.adventure-tabs .tabs {
+  display: flex;
+  gap: 4rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.adventure-tabs .tab-button {
+  padding: 1rem 0;
+  background: transparent;
+  border: none;
+  color: #A9A9A9; /* Dark Gray for unselected tabs */
+  font-size: 1.25rem;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.adventure-tabs .tab-button:hover {
+  color: #800008 !important; /* Force the hover color */
+}
+
+.adventure-tabs .tab-button.active {
+  color: #8B0000; /* Dark Red for active tab */
+}
+
+.adventure-tabs .underline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #5e0000; /* Dark Red underline */
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+}
+
+.adventure-tabs .tab-button.active .underline {
+  transform: scaleX(1); /* Animate underline to full width */
+}
+
+.adventure-tabs .tab-button:focus {
+  outline: none; /* Removes the focus outline */
 }
 </style>
